@@ -21,6 +21,9 @@
 		5332286F18A7394400773AEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332285118A7394300773AEB /* UIKit.framework */; };
 		5332287718A7394400773AEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5332287518A7394400773AEB /* InfoPlist.strings */; };
 		5332287918A7394400773AEB /* BMIiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332287818A7394400773AEB /* BMIiOSTests.m */; };
+		5332289C18A74BCA00773AEB /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332289118A74BA600773AEB /* libReactiveCocoa-iOS.a */; };
+		533228A618A7508400773AEB /* JHBMIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 533228A518A7508400773AEB /* JHBMIModel.m */; };
+		533228AE18A775F800773AEB /* UIColor+BMI.m in Sources */ = {isa = PBXBuildFile; fileRef = 533228AD18A775F800773AEB /* UIColor+BMI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,55 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5332284918A7394300773AEB;
 			remoteInfo = BMIiOS;
+		};
+		5332288E18A74BA600773AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88037F8315056328001A5B19;
+			remoteInfo = ReactiveCocoa;
+		};
+		5332289018A74BA600773AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88F440AB153DAC820097B4C3;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		5332289218A74BA600773AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88CDF7DC15000FCF00163A9F;
+			remoteInfo = ReactiveCocoaTests;
+		};
+		5332289418A74BA600773AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5FAF5223174D4C2000CAC810;
+			remoteInfo = "ReactiveCocoaTests-iOS";
+		};
+		5332289618A74BA600773AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F412177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHost";
+		};
+		5332289818A74BA600773AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1860F430177C91B500C7B3C9;
+			remoteInfo = "ReactiveCocoa-iOS-UIKitTestHostTests";
+		};
+		5332289A18A74BA600773AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D05AD39417F2D56F0080895B;
+			remoteInfo = "ReactiveCocoa-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +105,11 @@
 		5332287418A7394400773AEB /* BMIiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMIiOSTests-Info.plist"; sourceTree = "<group>"; };
 		5332287618A7394400773AEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5332287818A7394400773AEB /* BMIiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMIiOSTests.m; sourceTree = "<group>"; };
+		5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
+		533228A418A7508400773AEB /* JHBMIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBMIModel.h; sourceTree = "<group>"; };
+		533228A518A7508400773AEB /* JHBMIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBMIModel.m; sourceTree = "<group>"; };
+		533228AC18A775F800773AEB /* UIColor+BMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BMI.h"; sourceTree = "<group>"; };
+		533228AD18A775F800773AEB /* UIColor+BMI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BMI.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5332289C18A74BCA00773AEB /* libReactiveCocoa-iOS.a in Frameworks */,
 				5332285018A7394300773AEB /* CoreGraphics.framework in Frameworks */,
 				5332285218A7394300773AEB /* UIKit.framework in Frameworks */,
 				5332284E18A7394300773AEB /* Foundation.framework in Frameworks */,
@@ -101,6 +159,7 @@
 		5332284C18A7394300773AEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */,
 				5332284D18A7394300773AEB /* Foundation.framework */,
 				5332284F18A7394300773AEB /* CoreGraphics.framework */,
 				5332285118A7394300773AEB /* UIKit.framework */,
@@ -112,6 +171,8 @@
 		5332285318A7394300773AEB /* BMIiOS */ = {
 			isa = PBXGroup;
 			children = (
+				533228A418A7508400773AEB /* JHBMIModel.h */,
+				533228A518A7508400773AEB /* JHBMIModel.m */,
 				5332285C18A7394300773AEB /* JHAppDelegate.h */,
 				5332285D18A7394300773AEB /* JHAppDelegate.m */,
 				5332285F18A7394300773AEB /* Main.storyboard */,
@@ -119,6 +180,8 @@
 				5332286318A7394300773AEB /* JHViewController.m */,
 				5332286518A7394300773AEB /* Images.xcassets */,
 				5332285418A7394300773AEB /* Supporting Files */,
+				533228AC18A775F800773AEB /* UIColor+BMI.h */,
+				533228AD18A775F800773AEB /* UIColor+BMI.m */,
 			);
 			path = BMIiOS;
 			sourceTree = "<group>";
@@ -150,6 +213,20 @@
 				5332287518A7394400773AEB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5332288318A74B9F00773AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5332288F18A74BA600773AEB /* ReactiveCocoa.framework */,
+				5332289118A74BA600773AEB /* libReactiveCocoa-iOS.a */,
+				5332289318A74BA600773AEB /* ReactiveCocoaTests.octest */,
+				5332289518A74BA600773AEB /* ReactiveCocoaTests-iOS.octest */,
+				5332289718A74BA600773AEB /* ReactiveCocoa-iOS-UIKitTestHost.app */,
+				5332289918A74BA600773AEB /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */,
+				5332289B18A74BA600773AEB /* libReactiveCocoa-Mac.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +293,12 @@
 			mainGroup = 5332284118A7394300773AEB;
 			productRefGroup = 5332284B18A7394300773AEB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5332288318A74B9F00773AEB /* Products */;
+					ProjectRef = 5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5332284918A7394300773AEB /* BMIiOS */,
@@ -223,6 +306,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5332288F18A74BA600773AEB /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ReactiveCocoa.framework;
+			remoteRef = 5332288E18A74BA600773AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5332289118A74BA600773AEB /* libReactiveCocoa-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-iOS.a";
+			remoteRef = 5332289018A74BA600773AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5332289318A74BA600773AEB /* ReactiveCocoaTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ReactiveCocoaTests.octest;
+			remoteRef = 5332289218A74BA600773AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5332289518A74BA600773AEB /* ReactiveCocoaTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoaTests-iOS.octest";
+			remoteRef = 5332289418A74BA600773AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5332289718A74BA600773AEB /* ReactiveCocoa-iOS-UIKitTestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ReactiveCocoa-iOS-UIKitTestHost.app";
+			remoteRef = 5332289618A74BA600773AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5332289918A74BA600773AEB /* ReactiveCocoa-iOS-UIKitTestHostTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOS-UIKitTestHostTests.octest";
+			remoteRef = 5332289818A74BA600773AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5332289B18A74BA600773AEB /* libReactiveCocoa-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactiveCocoa-Mac.a";
+			remoteRef = 5332289A18A74BA600773AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5332284818A7394300773AEB /* Resources */ = {
@@ -252,6 +387,8 @@
 			files = (
 				5332285E18A7394300773AEB /* JHAppDelegate.m in Sources */,
 				5332286418A7394300773AEB /* JHViewController.m in Sources */,
+				533228A618A7508400773AEB /* JHBMIModel.m in Sources */,
+				533228AE18A775F800773AEB /* UIColor+BMI.m in Sources */,
 				5332285A18A7394300773AEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +472,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc",
+					"$(PROJECT_DIR)/ReactiveCocoa/ReactiveCocoaFramework",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -368,6 +511,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc",
+					"$(PROJECT_DIR)/ReactiveCocoa/ReactiveCocoaFramework",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -381,7 +530,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BMIiOS/BMIiOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/../ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc",
+					"$(PROJECT_DIR)/../ReactiveCocoa/ReactiveCocoaFramework",
+				);
 				INFOPLIST_FILE = "BMIiOS/BMIiOS-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,7 +550,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BMIiOS/BMIiOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/../ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc",
+					"$(PROJECT_DIR)/../ReactiveCocoa/ReactiveCocoaFramework",
+				);
 				INFOPLIST_FILE = "BMIiOS/BMIiOS-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
