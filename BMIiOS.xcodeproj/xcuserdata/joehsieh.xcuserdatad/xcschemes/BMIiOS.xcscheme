@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5332284918A7394300773AEB"
                BuildableName = "BMIiOS.app"
-               BlueprintName = "RACBMIiOS"
-               ReferencedContainer = "container:RACBMIiOS.xcodeproj">
+               BlueprintName = "BMIiOS"
+               ReferencedContainer = "container:BMIiOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5332286A18A7394400773AEB"
                BuildableName = "BMIiOSTests.xctest"
-               BlueprintName = "RACBMIiOSTests"
-               ReferencedContainer = "container:RACBMIiOS.xcodeproj">
+               BlueprintName = "BMIiOSTests"
+               ReferencedContainer = "container:BMIiOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5332284918A7394300773AEB"
             BuildableName = "BMIiOS.app"
-            BlueprintName = "RACBMIiOS"
-            ReferencedContainer = "container:RACBMIiOS.xcodeproj">
+            BlueprintName = "BMIiOS"
+            ReferencedContainer = "container:BMIiOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5332284918A7394300773AEB"
             BuildableName = "BMIiOS.app"
-            BlueprintName = "RACBMIiOS"
-            ReferencedContainer = "container:RACBMIiOS.xcodeproj">
+            BlueprintName = "BMIiOS"
+            ReferencedContainer = "container:BMIiOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5332284918A7394300773AEB"
             BuildableName = "BMIiOS.app"
-            BlueprintName = "RACBMIiOS"
-            ReferencedContainer = "container:RACBMIiOS.xcodeproj">
+            BlueprintName = "BMIiOS"
+            ReferencedContainer = "container:BMIiOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

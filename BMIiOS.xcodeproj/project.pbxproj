@@ -86,23 +86,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5332284A18A7394300773AEB /* RACBMIiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACBMIiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5332284A18A7394300773AEB /* BMIiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5332284D18A7394300773AEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5332284F18A7394300773AEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5332285118A7394300773AEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5332285518A7394300773AEB /* RACBMIiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RACBMIiOS-Info.plist"; sourceTree = "<group>"; };
+		5332285518A7394300773AEB /* BMIiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMIiOS-Info.plist"; sourceTree = "<group>"; };
 		5332285718A7394300773AEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5332285918A7394300773AEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5332285B18A7394300773AEB /* RACBMIiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RACBMIiOS-Prefix.pch"; sourceTree = "<group>"; };
+		5332285B18A7394300773AEB /* BMIiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMIiOS-Prefix.pch"; sourceTree = "<group>"; };
 		5332285C18A7394300773AEB /* JHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAppDelegate.h; sourceTree = "<group>"; };
 		5332285D18A7394300773AEB /* JHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAppDelegate.m; sourceTree = "<group>"; };
 		5332286018A7394300773AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5332286218A7394300773AEB /* JHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHViewController.h; sourceTree = "<group>"; };
 		5332286318A7394300773AEB /* JHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHViewController.m; sourceTree = "<group>"; };
 		5332286518A7394300773AEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5332286B18A7394400773AEB /* RACBMIiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACBMIiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5332286B18A7394400773AEB /* BMIiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5332286C18A7394400773AEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5332287418A7394400773AEB /* RACBMIiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RACBMIiOSTests-Info.plist"; sourceTree = "<group>"; };
+		5332287418A7394400773AEB /* BMIiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMIiOSTests-Info.plist"; sourceTree = "<group>"; };
 		5332287618A7394400773AEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5332287818A7394400773AEB /* BMIiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMIiOSTests.m; sourceTree = "<group>"; };
 		5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
@@ -150,8 +150,8 @@
 		5332284B18A7394300773AEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5332284A18A7394300773AEB /* RACBMIiOS.app */,
-				5332286B18A7394400773AEB /* RACBMIiOSTests.xctest */,
+				5332284A18A7394300773AEB /* BMIiOS.app */,
+				5332286B18A7394400773AEB /* BMIiOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,14 +173,15 @@
 			children = (
 				533228A418A7508400773AEB /* JHBMIModel.h */,
 				533228A518A7508400773AEB /* JHBMIModel.m */,
-				5332286218A7394300773AEB /* JHViewController.h */,
-				5332286318A7394300773AEB /* JHViewController.m */,
-				5332285F18A7394300773AEB /* Main.storyboard */,
 				5332285C18A7394300773AEB /* JHAppDelegate.h */,
 				5332285D18A7394300773AEB /* JHAppDelegate.m */,
-				533228AF18A781B200773AEB /* Categories */,
+				5332285F18A7394300773AEB /* Main.storyboard */,
+				5332286218A7394300773AEB /* JHViewController.h */,
+				5332286318A7394300773AEB /* JHViewController.m */,
 				5332286518A7394300773AEB /* Images.xcassets */,
 				5332285418A7394300773AEB /* Supporting Files */,
+				533228AC18A775F800773AEB /* UIColor+BMI.h */,
+				533228AD18A775F800773AEB /* UIColor+BMI.m */,
 			);
 			path = BMIiOS;
 			sourceTree = "<group>";
@@ -188,10 +189,10 @@
 		5332285418A7394300773AEB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5332285518A7394300773AEB /* RACBMIiOS-Info.plist */,
+				5332285518A7394300773AEB /* BMIiOS-Info.plist */,
 				5332285618A7394300773AEB /* InfoPlist.strings */,
 				5332285918A7394300773AEB /* main.m */,
-				5332285B18A7394300773AEB /* RACBMIiOS-Prefix.pch */,
+				5332285B18A7394300773AEB /* BMIiOS-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -208,7 +209,7 @@
 		5332287318A7394400773AEB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5332287418A7394400773AEB /* RACBMIiOSTests-Info.plist */,
+				5332287418A7394400773AEB /* BMIiOSTests-Info.plist */,
 				5332287518A7394400773AEB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -228,21 +229,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		533228AF18A781B200773AEB /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				533228AC18A775F800773AEB /* UIColor+BMI.h */,
-				533228AD18A775F800773AEB /* UIColor+BMI.m */,
-			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5332284918A7394300773AEB /* RACBMIiOS */ = {
+		5332284918A7394300773AEB /* BMIiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5332287C18A7394400773AEB /* Build configuration list for PBXNativeTarget "RACBMIiOS" */;
+			buildConfigurationList = 5332287C18A7394400773AEB /* Build configuration list for PBXNativeTarget "BMIiOS" */;
 			buildPhases = (
 				5332284618A7394300773AEB /* Sources */,
 				5332284718A7394300773AEB /* Frameworks */,
@@ -252,14 +244,14 @@
 			);
 			dependencies = (
 			);
-			name = RACBMIiOS;
+			name = BMIiOS;
 			productName = BMIiOS;
-			productReference = 5332284A18A7394300773AEB /* RACBMIiOS.app */;
+			productReference = 5332284A18A7394300773AEB /* BMIiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5332286A18A7394400773AEB /* RACBMIiOSTests */ = {
+		5332286A18A7394400773AEB /* BMIiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5332287F18A7394400773AEB /* Build configuration list for PBXNativeTarget "RACBMIiOSTests" */;
+			buildConfigurationList = 5332287F18A7394400773AEB /* Build configuration list for PBXNativeTarget "BMIiOSTests" */;
 			buildPhases = (
 				5332286718A7394400773AEB /* Sources */,
 				5332286818A7394400773AEB /* Frameworks */,
@@ -270,9 +262,9 @@
 			dependencies = (
 				5332287118A7394400773AEB /* PBXTargetDependency */,
 			);
-			name = RACBMIiOSTests;
+			name = BMIiOSTests;
 			productName = BMIiOSTests;
-			productReference = 5332286B18A7394400773AEB /* RACBMIiOSTests.xctest */;
+			productReference = 5332286B18A7394400773AEB /* BMIiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -290,7 +282,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5332284518A7394300773AEB /* Build configuration list for PBXProject "RACBMIiOS" */;
+			buildConfigurationList = 5332284518A7394300773AEB /* Build configuration list for PBXProject "BMIiOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -309,8 +301,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				5332284918A7394300773AEB /* RACBMIiOS */,
-				5332286A18A7394400773AEB /* RACBMIiOSTests */,
+				5332284918A7394300773AEB /* BMIiOS */,
+				5332286A18A7394400773AEB /* BMIiOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -414,7 +406,7 @@
 /* Begin PBXTargetDependency section */
 		5332287118A7394400773AEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5332284918A7394300773AEB /* RACBMIiOS */;
+			target = 5332284918A7394300773AEB /* BMIiOS */;
 			targetProxy = 5332287018A7394400773AEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -537,16 +529,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BMIiOS/RACBMIiOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "BMIiOS/BMIiOS-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(PROJECT_DIR)/../ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc",
 					"$(PROJECT_DIR)/../ReactiveCocoa/ReactiveCocoaFramework",
 				);
-				INFOPLIST_FILE = "BMIiOS/RACBMIiOS-Info.plist";
+				INFOPLIST_FILE = "BMIiOS/BMIiOS-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RACBMIiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -557,16 +549,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BMIiOS/RACBMIiOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "BMIiOS/BMIiOS-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(PROJECT_DIR)/../ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/extobjc",
 					"$(PROJECT_DIR)/../ReactiveCocoa/ReactiveCocoaFramework",
 				);
-				INFOPLIST_FILE = "BMIiOS/RACBMIiOS-Info.plist";
+				INFOPLIST_FILE = "BMIiOS/BMIiOS-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RACBMIiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -587,8 +579,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BMIiOSTests/RACBMIiOSTests-Info.plist";
-				PRODUCT_NAME = RACBMIiOSTests;
+				INFOPLIST_FILE = "BMIiOSTests/BMIiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -606,8 +598,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BMIiOS/BMIiOS-Prefix.pch";
-				INFOPLIST_FILE = "BMIiOSTests/RACBMIiOSTests-Info.plist";
-				PRODUCT_NAME = RACBMIiOSTests;
+				INFOPLIST_FILE = "BMIiOSTests/BMIiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -616,7 +608,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5332284518A7394300773AEB /* Build configuration list for PBXProject "RACBMIiOS" */ = {
+		5332284518A7394300773AEB /* Build configuration list for PBXProject "BMIiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5332287A18A7394400773AEB /* Debug */,
@@ -625,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5332287C18A7394400773AEB /* Build configuration list for PBXNativeTarget "RACBMIiOS" */ = {
+		5332287C18A7394400773AEB /* Build configuration list for PBXNativeTarget "BMIiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5332287D18A7394400773AEB /* Debug */,
@@ -633,7 +625,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5332287F18A7394400773AEB /* Build configuration list for PBXNativeTarget "RACBMIiOSTests" */ = {
+		5332287F18A7394400773AEB /* Build configuration list for PBXNativeTarget "BMIiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5332288018A7394400773AEB /* Debug */,
