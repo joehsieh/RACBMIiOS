@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
+#import "JHBMIModel.h"
 
 @interface JHBMIViewModel : NSObject
-@property(nonatomic, strong) NSString *height;
-@property(nonatomic, strong) NSString *weight;
+@property(nonatomic, strong) JHBMIModel *BMIModel;
 - (RACSignal *)BMIValueSignal;
 - (RACSignal *)BMIStatusSignal;
 @end

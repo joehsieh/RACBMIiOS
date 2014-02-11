@@ -19,8 +19,8 @@
 {
     [super viewDidLoad];
     self.BMIViewModel = [[JHBMIViewModel alloc] init];
-    RAC(self.BMIViewModel, height) = self.heightTextField.rac_textSignal;
-    RAC(self.BMIViewModel, weight) = self.weightTextField.rac_textSignal;
+    RAC(self.BMIViewModel.BMIModel, height) = self.heightTextField.rac_textSignal;
+    RAC(self.BMIViewModel.BMIModel, weight) = self.weightTextField.rac_textSignal;
     RAC(self.BMIValueLabel, text) = [self.BMIViewModel BMIValueSignal];
     RAC(self.view, backgroundColor) = [[self.BMIViewModel BMIStatusSignal] map:^id(id value) {
         return value[kColorKey];

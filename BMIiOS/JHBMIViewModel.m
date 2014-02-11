@@ -21,9 +21,17 @@ NSString *const kColorKey = @"color";
 
 @implementation JHBMIViewModel
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.BMIModel = [[JHBMIModel alloc] init];
+    }
+    return self;
+}
 - (RACSignal *)BMIValueSignal
 {
-    return [RACSignal combineLatest:@[RACObserve(self, height), RACObserve(self, weight)] reduce:^id(id height, id weight){
+    return [RACSignal combineLatest:@[RACObserve(self.BMIModel, height), RACObserve(self.BMIModel, weight)] reduce:^id(id height, id weight){
         if (![self isValidNumberString:height] || ![self isValidNumberString:weight]) {
             return @"Invalid input";
         };
