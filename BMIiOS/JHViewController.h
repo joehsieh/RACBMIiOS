@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JHBMIModel.h"
+#import "JHBMIViewModel.h"
+
+extern NSString *const kMessageKey;
+extern NSString *const kColorKey;
 
 @interface JHViewController : UIViewController
 @property (assign, nonatomic) IBOutlet UITextField *heightTextField;
@@ -15,5 +18,5 @@
 @property (assign, nonatomic) IBOutlet UILabel *BMIValueLabel;
 @property (assign, nonatomic) IBOutlet UILabel *BMIStatusLabel;
 
-@property (nonatomic, strong) JHBMIModel *BMIModel;
+@property (nonatomic, strong) JHBMIViewModel *BMIViewModel;
 @end

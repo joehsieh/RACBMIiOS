@@ -22,8 +22,8 @@
 		5332287718A7394400773AEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5332287518A7394400773AEB /* InfoPlist.strings */; };
 		5332287918A7394400773AEB /* BMIiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332287818A7394400773AEB /* BMIiOSTests.m */; };
 		5332289C18A74BCA00773AEB /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332289118A74BA600773AEB /* libReactiveCocoa-iOS.a */; };
-		533228A618A7508400773AEB /* JHBMIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 533228A518A7508400773AEB /* JHBMIModel.m */; };
 		533228AE18A775F800773AEB /* UIColor+BMI.m in Sources */ = {isa = PBXBuildFile; fileRef = 533228AD18A775F800773AEB /* UIColor+BMI.m */; };
+		539D07AC18AA043C009338D1 /* JHBMIViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 539D07AB18AA043C009338D1 /* JHBMIViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,10 +106,10 @@
 		5332287618A7394400773AEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5332287818A7394400773AEB /* BMIiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMIiOSTests.m; sourceTree = "<group>"; };
 		5332288218A74B9F00773AEB /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa.xcodeproj; sourceTree = "<group>"; };
-		533228A418A7508400773AEB /* JHBMIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBMIModel.h; sourceTree = "<group>"; };
-		533228A518A7508400773AEB /* JHBMIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBMIModel.m; sourceTree = "<group>"; };
 		533228AC18A775F800773AEB /* UIColor+BMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BMI.h"; sourceTree = "<group>"; };
 		533228AD18A775F800773AEB /* UIColor+BMI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BMI.m"; sourceTree = "<group>"; };
+		539D07AA18AA043C009338D1 /* JHBMIViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBMIViewModel.h; sourceTree = "<group>"; };
+		539D07AB18AA043C009338D1 /* JHBMIViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBMIViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,17 +171,16 @@
 		5332285318A7394300773AEB /* BMIiOS */ = {
 			isa = PBXGroup;
 			children = (
-				533228A418A7508400773AEB /* JHBMIModel.h */,
-				533228A518A7508400773AEB /* JHBMIModel.m */,
-				5332285C18A7394300773AEB /* JHAppDelegate.h */,
-				5332285D18A7394300773AEB /* JHAppDelegate.m */,
-				5332285F18A7394300773AEB /* Main.storyboard */,
+				539D07AA18AA043C009338D1 /* JHBMIViewModel.h */,
+				539D07AB18AA043C009338D1 /* JHBMIViewModel.m */,
 				5332286218A7394300773AEB /* JHViewController.h */,
 				5332286318A7394300773AEB /* JHViewController.m */,
+				5332285F18A7394300773AEB /* Main.storyboard */,
+				5332285C18A7394300773AEB /* JHAppDelegate.h */,
+				5332285D18A7394300773AEB /* JHAppDelegate.m */,
 				5332286518A7394300773AEB /* Images.xcassets */,
+				536CA82818A7877500229EDA /* Categories */,
 				5332285418A7394300773AEB /* Supporting Files */,
-				533228AC18A775F800773AEB /* UIColor+BMI.h */,
-				533228AD18A775F800773AEB /* UIColor+BMI.m */,
 			);
 			path = BMIiOS;
 			sourceTree = "<group>";
@@ -227,6 +226,15 @@
 				5332289B18A74BA600773AEB /* libReactiveCocoa-Mac.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		536CA82818A7877500229EDA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				533228AC18A775F800773AEB /* UIColor+BMI.h */,
+				533228AD18A775F800773AEB /* UIColor+BMI.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,8 +394,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5332285E18A7394300773AEB /* JHAppDelegate.m in Sources */,
+				539D07AC18AA043C009338D1 /* JHBMIViewModel.m in Sources */,
 				5332286418A7394300773AEB /* JHViewController.m in Sources */,
-				533228A618A7508400773AEB /* JHBMIModel.m in Sources */,
 				533228AE18A775F800773AEB /* UIColor+BMI.m in Sources */,
 				5332285A18A7394300773AEB /* main.m in Sources */,
 			);
@@ -624,6 +632,7 @@
 				5332287E18A7394400773AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5332287F18A7394400773AEB /* Build configuration list for PBXNativeTarget "BMIiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +641,7 @@
 				5332288118A7394400773AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
