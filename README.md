@@ -13,3 +13,8 @@ git submodule init
 git submodule update --init --recursive
 
 Enjoy it!
+
+PS.
+Turn off the option of "strict selector matching" option in Xcode 6.It is a bug of ReactiveCocoa
+ref:https://github.com/ReactiveCocoa/ReactiveCocoa/issues/1368
+
