@@ -1,22 +1,28 @@
 //
-//  JHViewController.m
+//  JHBMIViewModel.m
 //  BMIiOS
 //
-//  Created by joehsieh on 2014/2/9.
+//  Created by joehsieh on 2014/2/11.
 //  Copyright (c) 2014年 JH. All rights reserved.
 //
 
-#import "JHReactiveCocoaBMIViewController.h"
-#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "JHBMIViewModel.h"
 #import "UIColor+BMI.h"
 #import "Utility.h"
 
-@implementation JHReactiveCocoaBMIViewController
+@implementation JHBMIViewModel
 
-- (void)viewDidLoad
+- (instancetype)init
 {
-    [super viewDidLoad];
-    RACSignal *BMISignal = [RACSignal combineLatest:@[self.heightTextField.rac_textSignal, self.weightTextField.rac_textSignal] reduce:^id(id height, id weight){
+    self = [super init];
+    if (self) {
+        self.BMIModel = [[JHBMIModel alloc] init];
+    }
+    return self;
+}
+- (RACSignal *)BMIValueSignal
+{
+    return [RACSignal combineLatest:@[RACObserve(self.BMIModel, heightString), RACObserve(self.BMIModel, weightString)] reduce:^id(id height, id weight){
         if (![Utility isValidNumberString:height] || ![Utility isValidNumberString:weight]) {
             return @"Invalid input";
         };
@@ -25,10 +31,11 @@
         NSNumber *BMI = @(kiloOfWeight / (meterOfHeight * meterOfHeight));
         return [BMI stringValue];
     }];
-    
-    RAC(self.BMIValueLabel, text) = BMISignal;
-    
-    RACSignal *BMIDataSignal = [BMISignal map:^id(id value) {
+}
+
+- (RACSignal *)BMIStatusSignal
+{
+    return [[self BMIValueSignal] map:^id(id value) {
         if ([value isEqualToString:@"Invalid input"]) {
             return @{kMessageKey:@"Invalid input", kColorKey: [UIColor whiteColor]};
         }
@@ -53,20 +60,6 @@
         }
         return @{kMessageKey:@"Default", kColorKey: [UIColor whiteColor]};
     }];
-    
-    RAC(self.view, backgroundColor) = [BMIDataSignal map:^id(id value) {
-        return value[kColorKey];
-    }];
-    
-    RAC(self.BMIStatusLabel, text) = [BMIDataSignal map:^id(id value) {
-        return value[kMessageKey];
-    }];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

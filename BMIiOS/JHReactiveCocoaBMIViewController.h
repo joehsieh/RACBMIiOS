@@ -14,6 +14,4 @@
 @property (assign, nonatomic) IBOutlet UITextField *weightTextField;
 @property (assign, nonatomic) IBOutlet UILabel *BMIValueLabel;
 @property (assign, nonatomic) IBOutlet UILabel *BMIStatusLabel;
-
-@property (nonatomic, strong) JHBMIModel *BMIModel;
 @end

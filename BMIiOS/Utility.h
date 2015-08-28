@@ -15,6 +15,9 @@ static CGFloat const kBMIOverWeightUpperBound = 27.0;
 static CGFloat const kBMIClassOneObesityUpperBound = 30.0;
 static CGFloat const kBMIClassTwoObesityUpperBound = 35.0;
 
+static NSString *const kMessageKey = @"message";
+static NSString *const kColorKey = @"color";
+
 @interface Utility : NSObject
 + (BOOL)isValidNumberString:(NSString *)inString;
 @end

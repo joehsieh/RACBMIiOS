@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface JHBMIModel : NSObject
-@property(nonatomic, assign) CGFloat height;
-@property(nonatomic, assign) CGFloat weight;
+@property(nonatomic, copy) NSString *heightString;
+@property(nonatomic, copy) NSString *weightString;
 @end

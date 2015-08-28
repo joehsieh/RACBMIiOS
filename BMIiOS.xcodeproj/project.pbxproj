@@ -26,6 +26,8 @@
 		533228AE18A775F800773AEB /* UIColor+BMI.m in Sources */ = {isa = PBXBuildFile; fileRef = 533228AD18A775F800773AEB /* UIColor+BMI.m */; };
 		53BF139A1B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BF13991B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m */; };
 		53BF139D1B8FF2C100B768A6 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BF139C1B8FF2C100B768A6 /* Utility.m */; };
+		53BF13B21B90054C00B768A6 /* JHBMIViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BF13AF1B90054C00B768A6 /* JHBMIViewModel.m */; };
+		53BF13B31B90054C00B768A6 /* JHMVVMBMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BF13B11B90054C00B768A6 /* JHMVVMBMIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +118,10 @@
 		53BF13991B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHImperativeParadigmBMIViewController.m; sourceTree = "<group>"; };
 		53BF139B1B8FF2C100B768A6 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		53BF139C1B8FF2C100B768A6 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		53BF13AE1B90054C00B768A6 /* JHBMIViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBMIViewModel.h; sourceTree = "<group>"; };
+		53BF13AF1B90054C00B768A6 /* JHBMIViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBMIViewModel.m; sourceTree = "<group>"; };
+		53BF13B01B90054C00B768A6 /* JHMVVMBMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMVVMBMIViewController.h; sourceTree = "<group>"; };
+		53BF13B11B90054C00B768A6 /* JHMVVMBMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMVVMBMIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,12 +183,9 @@
 		5332285318A7394300773AEB /* BMIiOS */ = {
 			isa = PBXGroup;
 			children = (
-				53BF13981B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.h */,
-				53BF13991B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m */,
-				5332286218A7394300773AEB /* JHReactiveCocoaBMIViewController.h */,
-				5332286318A7394300773AEB /* JHReactiveCocoaBMIViewController.m */,
-				533228A418A7508400773AEB /* JHBMIModel.h */,
-				533228A518A7508400773AEB /* JHBMIModel.m */,
+				53BF13BD1B9008B000B768A6 /* ImperativeProgramming */,
+				53BF13BC1B90089D00B768A6 /* ReactiveCocoa */,
+				53BF13BB1B9006BC00B768A6 /* ReactiveCocoa+MVVM */,
 				5332285C18A7394300773AEB /* JHAppDelegate.h */,
 				5332285D18A7394300773AEB /* JHAppDelegate.m */,
 				5332285F18A7394300773AEB /* Main.storyboard */,
@@ -237,6 +240,37 @@
 				5332289B18A74BA600773AEB /* libReactiveCocoa-Mac.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		53BF13BB1B9006BC00B768A6 /* ReactiveCocoa+MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				53BF13B01B90054C00B768A6 /* JHMVVMBMIViewController.h */,
+				53BF13B11B90054C00B768A6 /* JHMVVMBMIViewController.m */,
+				53BF13AE1B90054C00B768A6 /* JHBMIViewModel.h */,
+				53BF13AF1B90054C00B768A6 /* JHBMIViewModel.m */,
+				533228A418A7508400773AEB /* JHBMIModel.h */,
+				533228A518A7508400773AEB /* JHBMIModel.m */,
+			);
+			name = "ReactiveCocoa+MVVM";
+			sourceTree = "<group>";
+		};
+		53BF13BC1B90089D00B768A6 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				5332286218A7394300773AEB /* JHReactiveCocoaBMIViewController.h */,
+				5332286318A7394300773AEB /* JHReactiveCocoaBMIViewController.m */,
+			);
+			name = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		53BF13BD1B9008B000B768A6 /* ImperativeProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				53BF13981B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.h */,
+				53BF13991B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m */,
+			);
+			name = ImperativeProgramming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,7 +430,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BF139A1B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m in Sources */,
+				53BF13B21B90054C00B768A6 /* JHBMIViewModel.m in Sources */,
 				5332285E18A7394300773AEB /* JHAppDelegate.m in Sources */,
+				53BF13B31B90054C00B768A6 /* JHMVVMBMIViewController.m in Sources */,
 				5332286418A7394300773AEB /* JHReactiveCocoaBMIViewController.m in Sources */,
 				533228A618A7508400773AEB /* JHBMIModel.m in Sources */,
 				53BF139D1B8FF2C100B768A6 /* Utility.m in Sources */,
