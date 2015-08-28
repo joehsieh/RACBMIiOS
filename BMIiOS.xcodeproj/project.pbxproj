@@ -14,7 +14,7 @@
 		5332285A18A7394300773AEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332285918A7394300773AEB /* main.m */; };
 		5332285E18A7394300773AEB /* JHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332285D18A7394300773AEB /* JHAppDelegate.m */; };
 		5332286118A7394300773AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5332285F18A7394300773AEB /* Main.storyboard */; };
-		5332286418A7394300773AEB /* JHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332286318A7394300773AEB /* JHViewController.m */; };
+		5332286418A7394300773AEB /* JHReactiveCocoaBMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5332286318A7394300773AEB /* JHReactiveCocoaBMIViewController.m */; };
 		5332286618A7394300773AEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5332286518A7394300773AEB /* Images.xcassets */; };
 		5332286D18A7394400773AEB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332286C18A7394400773AEB /* XCTest.framework */; };
 		5332286E18A7394400773AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332284D18A7394300773AEB /* Foundation.framework */; };
@@ -24,6 +24,8 @@
 		5332289C18A74BCA00773AEB /* libReactiveCocoa-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332289118A74BA600773AEB /* libReactiveCocoa-iOS.a */; };
 		533228A618A7508400773AEB /* JHBMIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 533228A518A7508400773AEB /* JHBMIModel.m */; };
 		533228AE18A775F800773AEB /* UIColor+BMI.m in Sources */ = {isa = PBXBuildFile; fileRef = 533228AD18A775F800773AEB /* UIColor+BMI.m */; };
+		53BF139A1B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BF13991B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m */; };
+		53BF139D1B8FF2C100B768A6 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BF139C1B8FF2C100B768A6 /* Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,8 +99,8 @@
 		5332285C18A7394300773AEB /* JHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAppDelegate.h; sourceTree = "<group>"; };
 		5332285D18A7394300773AEB /* JHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAppDelegate.m; sourceTree = "<group>"; };
 		5332286018A7394300773AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5332286218A7394300773AEB /* JHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHViewController.h; sourceTree = "<group>"; };
-		5332286318A7394300773AEB /* JHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHViewController.m; sourceTree = "<group>"; };
+		5332286218A7394300773AEB /* JHReactiveCocoaBMIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHReactiveCocoaBMIViewController.h; sourceTree = "<group>"; };
+		5332286318A7394300773AEB /* JHReactiveCocoaBMIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHReactiveCocoaBMIViewController.m; sourceTree = "<group>"; };
 		5332286518A7394300773AEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5332286B18A7394400773AEB /* BMIiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5332286C18A7394400773AEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -110,6 +112,10 @@
 		533228A518A7508400773AEB /* JHBMIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBMIModel.m; sourceTree = "<group>"; };
 		533228AC18A775F800773AEB /* UIColor+BMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BMI.h"; sourceTree = "<group>"; };
 		533228AD18A775F800773AEB /* UIColor+BMI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BMI.m"; sourceTree = "<group>"; };
+		53BF13981B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHImperativeParadigmBMIViewController.h; sourceTree = "<group>"; };
+		53BF13991B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHImperativeParadigmBMIViewController.m; sourceTree = "<group>"; };
+		53BF139B1B8FF2C100B768A6 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		53BF139C1B8FF2C100B768A6 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,17 +177,21 @@
 		5332285318A7394300773AEB /* BMIiOS */ = {
 			isa = PBXGroup;
 			children = (
+				53BF13981B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.h */,
+				53BF13991B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m */,
+				5332286218A7394300773AEB /* JHReactiveCocoaBMIViewController.h */,
+				5332286318A7394300773AEB /* JHReactiveCocoaBMIViewController.m */,
 				533228A418A7508400773AEB /* JHBMIModel.h */,
 				533228A518A7508400773AEB /* JHBMIModel.m */,
 				5332285C18A7394300773AEB /* JHAppDelegate.h */,
 				5332285D18A7394300773AEB /* JHAppDelegate.m */,
 				5332285F18A7394300773AEB /* Main.storyboard */,
-				5332286218A7394300773AEB /* JHViewController.h */,
-				5332286318A7394300773AEB /* JHViewController.m */,
 				5332286518A7394300773AEB /* Images.xcassets */,
 				5332285418A7394300773AEB /* Supporting Files */,
 				533228AC18A775F800773AEB /* UIColor+BMI.h */,
 				533228AD18A775F800773AEB /* UIColor+BMI.m */,
+				53BF139B1B8FF2C100B768A6 /* Utility.h */,
+				53BF139C1B8FF2C100B768A6 /* Utility.m */,
 			);
 			path = BMIiOS;
 			sourceTree = "<group>";
@@ -385,9 +395,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53BF139A1B8FEDF200B768A6 /* JHImperativeParadigmBMIViewController.m in Sources */,
 				5332285E18A7394300773AEB /* JHAppDelegate.m in Sources */,
-				5332286418A7394300773AEB /* JHViewController.m in Sources */,
+				5332286418A7394300773AEB /* JHReactiveCocoaBMIViewController.m in Sources */,
 				533228A618A7508400773AEB /* JHBMIModel.m in Sources */,
+				53BF139D1B8FF2C100B768A6 /* Utility.m in Sources */,
 				533228AE18A775F800773AEB /* UIColor+BMI.m in Sources */,
 				5332285A18A7394300773AEB /* main.m in Sources */,
 			);
@@ -624,6 +636,7 @@
 				5332287E18A7394400773AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5332287F18A7394400773AEB /* Build configuration list for PBXNativeTarget "BMIiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +645,7 @@
 				5332288118A7394400773AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

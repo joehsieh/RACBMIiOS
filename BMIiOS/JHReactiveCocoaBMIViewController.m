@@ -6,25 +6,15 @@
 //  Copyright (c) 2014年 JH. All rights reserved.
 //
 
-#import "JHViewController.h"
+#import "JHReactiveCocoaBMIViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import "UIColor+BMI.h"
-
-CGFloat const kBMINormalWeightLowerBound = 18.5;
-CGFloat const kBMINormalWeightUpperBound = 24.0;
-
-CGFloat const kBMIOverWeightUpperBound = 27.0;
-CGFloat const kBMIClassOneObesityUpperBound = 30.0;
-CGFloat const kBMIClassTwoObesityUpperBound = 35.0;
+#import "Utility.h"
 
 NSString *const kMessageKey = @"message";
 NSString *const kColorKey = @"color";
 
-@interface JHViewController ()
-
-@end
-
-@implementation JHViewController
+@implementation JHReactiveCocoaBMIViewController
 
 - (void)viewDidLoad
 {
@@ -34,7 +24,7 @@ NSString *const kColorKey = @"color";
     RAC(self.BMIModel, weight) = self.weightTextField.rac_textSignal;
     
     RACSignal *BMISignal = [RACSignal combineLatest:@[self.heightTextField.rac_textSignal, self.weightTextField.rac_textSignal] reduce:^id(id height, id weight){
-        if (![self isValidNumberString:height] || ![self isValidNumberString:weight]) {
+        if (![Utility isValidNumberString:height] || ![Utility isValidNumberString:weight]) {
             return @"Invalid input";
         };
         CGFloat meterOfHeight = [height floatValue]/100.0;
@@ -78,21 +68,6 @@ NSString *const kColorKey = @"color";
     RAC(self.BMIStatusLabel, text) = [BMIDataSignal map:^id(id value) {
         return value[kMessageKey];
     }];
-}
-
-- (BOOL)isValidNumberString:(NSString *)inString
-{
-    if ([inString length] == 0) return NO;
-    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
-    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
-    [formatter setAllowsFloats:YES];
-    [formatter setDecimalSeparator:@"."];
-    
-    NSNumber *number = [formatter numberFromString: inString];
-    
-    if(number == nil) return NO;
-    if ([number isEqualToNumber:@(0)]) return NO;
-    return YES;
 }
 
 - (void)didReceiveMemoryWarning
