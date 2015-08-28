@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Reactive CocoaBMI View Controller-->
+        <!--ReactiveCocoa-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="JHReactiveCocoaBMIViewController" sceneMemberID="viewController">
@@ -64,7 +64,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8zH-8h-aTZ"/>
+                    <navigationItem key="navigationItem" title="ReactiveCocoa" id="8zH-8h-aTZ"/>
                     <connections>
                         <outlet property="BMIStatusLabel" destination="f70-P0-gyv" id="2vM-hn-adE"/>
                         <outlet property="BMIValueLabel" destination="VBL-Zx-gxD" id="uBm-aM-guh"/>
@@ -76,7 +76,7 @@
             </objects>
             <point key="canvasLocation" x="1013" y="943"/>
         </scene>
-        <!--View Controller-->
+        <!--ReactiveCocoa+MVVM-->
         <scene sceneID="VMc-EP-iGq">
             <objects>
                 <viewController id="X5q-pb-Cwr" customClass="JHMVVMBMIViewController" sceneMemberID="viewController">
@@ -135,7 +135,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="VuE-ud-Nhb"/>
+                    <navigationItem key="navigationItem" title="ReactiveCocoa+MVVM" id="VuE-ud-Nhb"/>
                     <connections>
                         <outlet property="BMIStatusLabel" destination="krW-xu-XGd" id="Hky-qN-l6h"/>
                         <outlet property="BMIValueLabel" destination="3Af-WU-Nof" id="q8i-hH-fgq"/>
@@ -147,7 +147,7 @@
             </objects>
             <point key="canvasLocation" x="522" y="1372"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Demo-->
         <scene sceneID="u6F-be-bmR">
             <objects>
                 <tableViewController id="jsa-cM-rBM" sceneMemberID="viewController">
@@ -220,7 +220,7 @@
                             <outlet property="delegate" destination="jsa-cM-rBM" id="Tyf-iG-dnN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Xho-YA-0iY"/>
+                    <navigationItem key="navigationItem" title="Demo" id="Xho-YA-0iY"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ovY-u1-H3k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -242,7 +242,7 @@
             </objects>
             <point key="canvasLocation" x="115" y="460"/>
         </scene>
-        <!--Imperative ParadigmBMI View Controller-->
+        <!--Imperative Programming-->
         <scene sceneID="0DE-0Z-9Nx">
             <objects>
                 <viewController id="0FP-Dd-64z" customClass="JHImperativeParadigmBMIViewController" sceneMemberID="viewController">
@@ -307,7 +307,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="DhM-sD-puU"/>
+                    <navigationItem key="navigationItem" title="Imperative Programming" id="DhM-sD-puU"/>
                     <connections>
                         <outlet property="BMIStatusLabel" destination="B7j-MX-G2Y" id="cbt-HM-5Pj"/>
                         <outlet property="BMIValueLabel" destination="u44-1z-P81" id="jKf-Kz-xB3"/>
