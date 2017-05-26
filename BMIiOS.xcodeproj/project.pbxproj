@@ -10,6 +10,7 @@
 		530691181ED7FDD1002CDB0A /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530691171ED7FDD1002CDB0A /* ReactiveObjC.framework */; };
 		5306911D1ED7FF30002CDB0A /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530691171ED7FDD1002CDB0A /* ReactiveObjC.framework */; };
 		5306911E1ED7FF30002CDB0A /* ReactiveObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 530691171ED7FDD1002CDB0A /* ReactiveObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		530691211ED80039002CDB0A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530691201ED80039002CDB0A /* Launch Screen.storyboard */; };
 		5332284E18A7394300773AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332284D18A7394300773AEB /* Foundation.framework */; };
 		5332285018A7394300773AEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332284F18A7394300773AEB /* CoreGraphics.framework */; };
 		5332285218A7394300773AEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5332285118A7394300773AEB /* UIKit.framework */; };
@@ -58,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		530691171ED7FDD1002CDB0A /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = Carthage/Build/iOS/ReactiveObjC.framework; sourceTree = "<group>"; };
+		530691201ED80039002CDB0A /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5332284A18A7394300773AEB /* BMIiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5332284D18A7394300773AEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5332284F18A7394300773AEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -163,6 +165,7 @@
 				533228AD18A775F800773AEB /* UIColor+BMI.m */,
 				53BF139B1B8FF2C100B768A6 /* Utility.h */,
 				53BF139C1B8FF2C100B768A6 /* Utility.m */,
+				530691201ED80039002CDB0A /* Launch Screen.storyboard */,
 			);
 			path = BMIiOS;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				5332286618A7394300773AEB /* Images.xcassets in Resources */,
 				5332285818A7394300773AEB /* InfoPlist.strings in Resources */,
+				530691211ED80039002CDB0A /* Launch Screen.storyboard in Resources */,
 				5332286118A7394300773AEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,7 +494,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -515,7 +518,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
