@@ -5,7 +5,7 @@ The BMI (Body Mass Index) app is written by three ways. You can see what differe
 - ReactiveCocoa
 - RaactiveCocoa+MVVM
 
-Before you wnat to do something.You shoud execute commands below first!
+Before you dive into the codebase.You shoud execute commands below first!
 
 git submodule init
 
